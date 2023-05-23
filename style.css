@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins",sans-serif;
+}
+body{
+    background:linear-gradient(to right, rgb(27, 124, 221) , rgb(99, 232, 250));
+}
+
+.btn-primary{
+    border:none;
+    outline: none;
+    padding:7px 20px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: white;
+}
+
+.container{
+    display: block;
+    width:100%;
+    height: 100%;
+    max-width: 1000px;
+    margin:0 auto;
+}
+
+header{
+    padding-block: 15px;
+}
+
+header .container,
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+
+.left img{
+    height: 45px;
+    width: 45px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 16px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    color: rgba(255,255,255,0.8);
+}
+li a:hover{
+    color:white;
+}
+
+.login{
+    background: #488ceb;
+    color: white;
+    margin-right: 16px;
+}
+.login:hover{
+    background: #156be3;
+}
+.signup{
+    color:#488ceb;
+}
+
+main{
+    margin-top: 72px;
+}
+.right1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.right1 img{
+    width: 100%;
+    transform: translateX(28%);
+}
+
+.left1{
+    width:65%;
+}
+.left1 h1{
+    color:white;
+    font-family: "Inter",sans-serif;
+}
+
+.left1 h1{
+    font-size:50px;
+}
+
+.left1 p{
+    margin-top: 20px;
+    color:rgba(255,255,255,0.8);
+    text-align: justify;
+}
+
+.left1 .buy-now{
+    margin-top: 28px;
+}
